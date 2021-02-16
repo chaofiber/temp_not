@@ -1,10 +1,6 @@
 main:
   - title: "Projects"
     url: https://nba.hupu.com/
-  - title: "Posts"
-    url: /posts/
-  - title: "Photography"
-    url: /photo/
   - title: "Category"
     url: /categories/
   - title: "About"

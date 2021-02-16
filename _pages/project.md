@@ -1,6 +1,7 @@
 ---
 permalink: /project/
 title: "Projects"
+classes: wide
 ---
 
 ### MPC-feedback Trajectory Optimization for Wheeled-legged Robots

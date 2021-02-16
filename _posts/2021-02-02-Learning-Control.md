@@ -2,7 +2,7 @@
 title: "Learning Control"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Project
 tags:
   - project
 classes: wide

@@ -1,10 +1,11 @@
 ---
-title: "Post: Standard"
+title: "Learning Control"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
   - project
+classes: wide
 ---
 
 I would like to elaborate on my motivation for learning control for robotics in two aspects: 1). How I learn the challenges of control for robotics and how reinforcement learning can help exploit the limit of robotics  2). How reinforcement learning is facing difficulties and may still need to leverage knowledge from control.

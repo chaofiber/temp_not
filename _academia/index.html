@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Chao Ni </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Chao NI</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="doc/Resume_Feb1.pdf">CV</a></div>
+<div class="menu-item"><a href="https://github.com/chaofiber">Github</a></div>
+<div class="menu-category">Docs</div>
+<div class="menu-item"><a href="common.html">Common</a></div>
+<div class="menu-item"><a href="https://chaosphotos.blogspot.com">Photography</a></div>
+<div class="menu-item"><a href="german-phrase.html">Deutsch</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Chao Ni </h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="nichao.jpg" alt="photo" width="150px" height="150px" />&nbsp;</td>
+<td align="left"><p>Chao Ni <br />
+Master Student in Robotics at ETH Zürich <br /></p>
+</td></tr></table>
+<dl>
+<dt></dt>
+<dd><p><i>&ldquo;In me, the tiger sniffs the rose.&rdquo; —— Siegfried Sassoon</i></p></dd>
+</dl>
+<h2>Contact</h2>
+<ul>
+<li><p><a href="mailto:chao.ni@inf.ethz.ch">chao.ni@inf.ethz.ch</a></p>
+</li>
+<li><p>Buchwiesen 2, 8052 Zürich</p>
+</li>
+<li><p>+41 788605204</p>
+</li>
+<li><p><a href="https://github.com/chaofiber">Github</a></p>
+</li>
+</ul>
+<h2>Research Interests</h2>
+<p>I am particularly fascinated with research at the intersection of robotics and algorithmic and theoretical techniques (e.g., nonlinear control methods, machine learning, optimization, etc.). I am also interested in the cutting-edge reinforcement learning approaches in the control area.</p>
+<h2>Education</h2>
+<ul>
+<li><p><i>MSc</i> in Robotics, ETH Zürich, Zürich, Switzerland, 2019-</p>
+</li>
+<li><p><i>BSc</i> in Theoretical and Applied Mechanics, Peking University, Beijing, China, 2015-2019</p>
+</li>
+<li><p><i>BSc</i> in Economics, Peking University, Beijing, China, 2016-2019</p>
+</li>
+<li><p>Visiting student, LCSR lab, Johns Hopkins University, Baltimore, USA, 2018.6-2018.9 advisor:
+<a href="https://me.jhu.edu/faculty/gregory-s-chirikjian/">Gregory Chirikjian</a></p>
+</li>
+<li><p>Research assistant, Machine Intelligence Group, Beijing, China, 2019.1-2019.8 advisor: 
+<a href="http://iiis.tsinghua.edu.cn/~zhang/">Chongjie Zhang</a></p>
+</li>
+</ul>
+<h2>Projects</h2>
+<h2>MPC-feedback Trajectory Optimization for Wheeled-legged Robots</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/traj.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>Wheeled-legged robots can cope with tough terrains in an energy-efficient way with the help of wheels, while it also preserves its ability to negotiate complex terrains through the presence of the leg.  To achieve various tasks in different terrains, trajectory optimization (TO) is required to serve as guidance.  Furthermore, a model predictive control (MPC) feedback planner is utilized to track this reference trajectory. In this thesis, we model the robot as a single rigid body, and the customized TOWR is used to handle the wheeled-legged robot trajectory optimization problem.  The tracking reference is converted into joint space via inverse kinematics and be fed into MPC as guidance.  We achieve this by adding the trajectory to the cost term of  the  MPC.  A  whole-body  controller  is  used  to  generate  torque  commands  for the real robots.  The framework is verified on simulation and hardware.  We show that such a framework can be modularized and TOWR can be replaced by other optimizers.   MPC  can  help  correct  the  infeasibility  of  the  trajectory  to  make  it physically practicable, as well as smooth the trajectory to avoid wild motions.  Such a trajectory-correction scheme can be further explored to realize online trajectory computing and tracking. <br /> 
+<a href="doc/semester_thesis.pdf">thesis</a>  <a href="doc/semester_thesis_ppt.pdf">slide</a> <br /></p>
+</td></tr></table>
+<h2>Hexapod Robot Control</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/UI.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>In this project, we developed an inverse kinematic solver for the hexapod and generated different gaits and propose a transition state when the hexapod has to change their gaits. We also implemented obstable avoidance algorithms on the tough terrains. The project and the video can be found at <a href="https://github.com/chaofiber/hexapod/">github</a><br /></p>
+</td></tr></table>
+<h2>Exploiting Effective Representation via Cooperative Learning of Multi-Sensory Robotics Data</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/RL.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>Extracting effective representations from high-dimensional data has been one of the
+core problems for deep learning. Since the collected data by a reinforcement learning
+agent are unlabeled, previous reinforcement learning methods learn task-dependent
+representations in the policy learning process or task-agnostic representations by
+predicting the future in the pre-training. In robotics tasks, multi-sensory data (e.g.,
+robotic control state and camera observation) are usually accessible and provide
+abundant multi-source information. In this paper, we present a novel cooperative
+learning framework to extract effective representations from multi-sensory data. Our
+framework integrates self-supervised predictive dynamics learning and contrastive
+synchronization learning, which respectively leverages the dynamics information of
+each data source and the natural temporal synchronization of multi-source data. We
+evaluate our method on popular robotic control tasks, and results show that our model
+learns effective generic representations for down-stream reinforcement learning tasks
+and enables efficient transfer among multi-sensor data.<br /></p>
+<p>Collaborating with Guangxiang Zhu*, Hao Cheng, advised by Chongjie Zhang.<br />
+<a href="doc/undergrad_thesis.pdf">undergraduate thesis</a></p>
+</td></tr></table>
+<h2>Markov Decision Process and Variants: a Survey on Robot Learning</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/pomdp.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>In this survey, I want to summarize approaches in robot reinforcement learning. The survey mainly introduced Markov Decision Process based methods including some variants including partially observable Markov Decision Process, Bayesian learning based POMDP, model predictive control approach and KL divergence upper bound based POMDP. Apart from applying other cutting-edge machine learning and deep learning methods, we can also make use of other control methods such model predictive control in robot learning problems. <a href="doc/survey_rl.pdf">pdf</a><br /></p>
+</td></tr></table>
+<h2>GORA-Net: a Temporal Reparameterization Method for Recognizing Actions in Video Sequences</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/gora_c3d.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>In this project, our object is video of robots which are making some motions. We need to find out what motion the video actually represents. Interestingly, one essentially same motion may be carried by two videos with different temporal distribution. We try to firstly quotient out the temporal fluctuations of the video, which means to make the sequence play speed at a standard time scale. After that, we build a deep learning framework to learn the motion represented by the video. The temporal reparameterization mapping can be regarded as a hidden layer in the recurrent neural network. <a href="doc/action-recognition-project.pdf">pdf</a> <a href="doc/GORA-Net-Presentation.pdf">slide</a><br /></p>
+<p>Collaborating with Sipu Ruan, advised by Gregory Chirikjian.</p>
+</td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2021-02-15 22:45:47 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

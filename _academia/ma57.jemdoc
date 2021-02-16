@@ -1,0 +1,14 @@
+## jemdoc: {ma57.html}
+
+== Installation of HSL
+- Install Ipopt from source: [https://www.coin-or.org/download/source/Ipopt/]
+I use 3.12.8 version, download the zip file and unzip it;
+- add +export IPOPT=$IPOPT:\/home\/yourname\/Ipopt-3.12.8\/build+ to bashrc file
+- Download the HSL package via this link [http://www.hsl.rl.ac.uk/download/coinhsl/2019.05.21/], need a licence, would reply in a day, and then unpack it;
+- link the HSL folder +ln -s coinhsl-x.y.z coinhsl+ 
+- Go to Ipopt.3.12.8\/ThirdParty\/HSL folder and link HSL folder here + ln -s \/path\/to\/coinhsl+
+- +./configure --enable-loadable-library+
+- +make install+
+- Go to the lib folder under HSL and +ln -s libcoinhsl.so libhsl.so+
+- Open bashrc file and add +export LD_LIBRARY_PATH=$LD_LIBRARY: \/home\/yourname\/Ipopt-3.12.8\/ThirdParty\/HSL\/lib+
+- Can also check the INSTALL.HSL file under the folder HSL\n

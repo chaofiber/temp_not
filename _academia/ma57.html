@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<div id="layout-content">
+<h2>Installation of HSL</h2>
+<ul>
+<li><p>Install Ipopt from source: <a href="https://www.coin-or.org/download/source/Ipopt/">https://www.coin-or.org/download/source/Ipopt/</a>
+I use 3.12.8 version, download the zip file and unzip it;</p>
+</li>
+<li><p>add <tt>export IPOPT=$IPOPT:/home/yourname/Ipopt-3.12.8/build</tt> to bashrc file</p>
+</li>
+<li><p>Download the HSL package via this link <a href="http://www.hsl.rl.ac.uk/download/coinhsl/2019.05.21/">http://www.hsl.rl.ac.uk/download/coinhsl/2019.05.21/</a>, need a licence, would reply in a day, and then unpack it;</p>
+</li>
+<li><p>link the HSL folder <tt>ln -s coinhsl-x.y.z coinhsl</tt> </p>
+</li>
+<li><p>Go to Ipopt.3.12.8/ThirdParty/HSL folder and link HSL folder here <tt> ln -s /path/to/coinhsl</tt></p>
+</li>
+<li><p><tt>./configure &ndash;enable-loadable-library</tt></p>
+</li>
+<li><p><tt>make install</tt></p>
+</li>
+<li><p>Go to the lib folder under HSL and <tt>ln -s libcoinhsl.so libhsl.so</tt></p>
+</li>
+<li><p>Open bashrc file and add <tt>export LD_LIBRARY_PATH=$LD_LIBRARY: /home/yourname/Ipopt-3.12.8/ThirdParty/HSL/lib</tt></p>
+</li>
+<li><p>Can also check the INSTALL.HSL file under the folder HSL</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-09-05 00:01:18 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>

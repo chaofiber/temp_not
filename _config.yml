@@ -61,8 +61,7 @@ plugins:
 author:
   name   : "Chao Ni"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Master student in Robotics at ETH.
-	    Robotics | Photography | Cycling "
+  bio    : "Master student in Robotics at ETH. Likes cycling, photography and robotics "
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

@@ -24,7 +24,7 @@ github_username: username
 minimal_mistakes_skin: air # air, aqua, contrast, default
 search: true
 atom_feed:
-    hide: true
+    hide:true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -65,7 +65,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://about.2cni.com/_academia/index.html/"
+      url: "https://about.2cni.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/nichao09"

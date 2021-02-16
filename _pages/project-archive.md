@@ -1,6 +1,6 @@
 ---
-title: "Posts by Project"
-permalink: /posts/
-layout: posts
-author_profile: true
+permalink: /project/
+title: "Projects"
 ---
+
+This is a test file to see my previous projects.

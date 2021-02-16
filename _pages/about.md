@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-I am particularly fascinated with research at the intersection of robotics and algorithmic and theoretical techniques (e.g., nonlinear control methods, machine learning, optimization, etc.). I am also interested in the cutting-edge reinforcement learning approaches in the control area.
+I was born in Zhejiang, China and finished my high school there. I obtained my undergraduate degree in *Theoretical and Applied Mechanics* and *Economics* at Peking University. After that, I went to Switzerland and continued my studies as a master student in *Robotics, Systems and Control* at ETH Zurich.
 
-Besides, I am also interested in photography, travling and so on.
+I am interested in the research area bridging learning and control, and especially its application to the real robots. I am planning to continue my PhD in this direction.
+
+In my free time, I enjoy taking pictures, cycling and traveling. I am also keen to body building.

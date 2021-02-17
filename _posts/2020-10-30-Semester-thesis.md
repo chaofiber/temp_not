@@ -20,7 +20,7 @@ We show that such a framework can be modularized and TOWR can be replaced by oth
 
 ### Snapshot
 
-![image-center](/_docs/images/2020-10-30-semester-thesis.png){: .align-center}
+![image-center](/_docs/images/2020-10-30-semester-thesis.png)
 
 ### keywords
 

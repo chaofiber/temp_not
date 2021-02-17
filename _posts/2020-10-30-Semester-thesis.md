@@ -20,10 +20,10 @@ We show that such a framework can be modularized and TOWR can be replaced by oth
 
 ### Snapshot
 
-![alt text](../_docs/images/2020-10-30-semester-thesis.png "title")
+![image-center](../_docs/images/2020-10-30-semester-thesis.png){: .align-center}
 
 ### keywords
 
 - Trajectory Optimization
 - Model Predictive Control
-- C++, ROS, Catkin
+- C++, ROS

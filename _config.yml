@@ -22,7 +22,7 @@ github_username: chaofiber
 minimal_mistakes_skin: default # air, aqua, contrast, default,dirt
 search: true
 atom_feed:
-    hide:false
+    hide:true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes

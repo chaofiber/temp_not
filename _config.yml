@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Will a robot take pictures?
 twitter_username: nichao09
 github_username: chaofiber
-minimal_mistakes_skin: dirt # air, aqua, contrast, default,dirt
+minimal_mistakes_skin: default # air, aqua, contrast, default,dirt
 search: true
 atom_feed:
     hide:false

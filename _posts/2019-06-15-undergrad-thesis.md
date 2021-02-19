@@ -3,9 +3,6 @@ title: "Exploiting Effective Representation via Cooperative Learning of Multi-Se
 excerpt_separator: "<!--more-->"
 categories:
   - Project
-  - Tech
-  - Blog
-  - Photography
 tags:
   - project
 classes: wide

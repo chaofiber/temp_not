@@ -2,7 +2,6 @@
 title: "Learning Control"
 excerpt_separator: "<!--more-->"
 categories:
-  - Project
   - Blog
 tags:
   - project
@@ -11,7 +10,7 @@ classes: wide
 
 I would like to elaborate on my motivation for learning control for robotics in two aspects: 1). How I learn the challenges of control for robotics and how reinforcement learning can help exploit the limit of robotics  2). How reinforcement learning is facing difficulties and may still need to leverage knowledge from control.
 
-In my semester thesis [[1](https://about.2cni.com/_docs/semester_thesis.pdf)], I explored the possibility of utilizing a Model Predictive Control(MPC)-feedback strategy to track the optimized trajectory on a wheeled-legged ANYmal robot. Despite the great potential MPC as a controller brings to the robotics community, it shows some limitations:
+In my semester thesis [[1](https://about.2cni.com/assets/pdfs/semester_thesis.pdf)], I explored the possibility of utilizing a Model Predictive Control(MPC)-feedback strategy to track the optimized trajectory on a wheeled-legged ANYmal robot. Despite the great potential MPC as a controller brings to the robotics community, it shows some limitations:
 
   - **The computational burden is huge**. For a high dimensional robot, whose dynamic is often non-linear, the MPC requires a fast and reliable solver to coincide with the frequency of low-level torque controller, and to avoid local optimum as much as possible.
 

@@ -8,7 +8,8 @@ tags:
 classes: wide
 ---
 
-## MPC-feedback Trajectory Optimization for Wheeled-legged Robots
+[slide][slide]
+[thesis][thesis]
 
 ### Abstract
 
@@ -27,3 +28,6 @@ We show that such a framework can be modularized and TOWR can be replaced by oth
 - Trajectory Optimization
 - Model Predictive Control
 - C++, ROS
+
+[slide]: [/assets/pdfs/semester_thesis_slide.pdf]
+[thesis]: [/assets/pdfs/semester_thesis.pdf]

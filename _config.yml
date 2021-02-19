@@ -17,8 +17,8 @@ title: Chao Ni
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Will a robot take pictures?
-twitter_username: username
-github_username: username
+twitter_username: nichao09
+github_username: chaofiber
 minimal_mistakes_skin: air # air, aqua, contrast, default
 search: true
 atom_feed:
@@ -61,12 +61,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Will a robot take pictures? "
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chaoni@ethz.ch"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://about.2cni.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:chaoni@ethz.ch"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf-o"
+      url: "/assets/pdfs/cv.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/nichao09"

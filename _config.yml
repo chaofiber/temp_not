@@ -68,7 +68,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:chaoni@ethz.ch"
     - label: "Resume"
-      icon: "fas fa-fw fa-file-pdf-o"
+      icon: "fa fa-fw fa-file-pdf-o"
       url: "/assets/pdfs/cv.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"

@@ -29,5 +29,5 @@ We show that such a framework can be modularized and TOWR can be replaced by oth
 - Model Predictive Control
 - C++, ROS
 
-[slide]: [/assets/pdfs/semester_thesis_slide.pdf]
-[thesis]: [/assets/pdfs/semester_thesis.pdf]
+[slide]: [assets/pdfs/semester_thesis_slide.pdf]
+[thesis]: [assets/pdfs/semester_thesis.pdf]

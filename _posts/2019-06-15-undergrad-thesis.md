@@ -24,4 +24,4 @@ Extracting effective representations from high-dimensional data has been one of 
 - Contrastive Loss
 - Reinforcement Learning
 
-[thesis]: [assets/pdfs/undergrad_thesis.pdf]
+[thesis]: assets/pdfs/undergrad_thesis.pdf

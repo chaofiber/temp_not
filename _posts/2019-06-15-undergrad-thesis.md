@@ -8,7 +8,7 @@ tags:
 classes: wide
 ---
 
-[thesis][thesis]
+[[thesis](https://about.2cni.com/assets/pdfs/undergrad_thesis.pdf)]
 
 ### Abstract
 
@@ -24,4 +24,3 @@ Extracting effective representations from high-dimensional data has been one of 
 - Contrastive Loss
 - Reinforcement Learning
 
-[thesis]: assets/pdfs/undergrad_thesis.pdf

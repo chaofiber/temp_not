@@ -8,8 +8,8 @@ tags:
 classes: wide
 ---
 
-[slide][slide]
-[thesis][thesis]
+[[slide](https://about.2cni.com/assets/pdfs/semester_thesis_slide.pdf)]
+[[thesis](https://about.2cni.com/assets/pdfs/semester_thesis.pdf)]
 
 ### Abstract
 
@@ -29,5 +29,3 @@ We show that such a framework can be modularized and TOWR can be replaced by oth
 - Model Predictive Control
 - C++, ROS
 
-[slide]: [https://about.2cni.com/assets/pdfs/semester_thesis_slide.pdf]
-[thesis]: [https://about.2cni.com/assets/pdfs/semester_thesis.pdf]

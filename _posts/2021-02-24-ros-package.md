@@ -61,6 +61,7 @@ classes: wide
 
 - RViz:
   - 3D visualization tool for ROS. (Not simulation)
+  - Fixed Frame should exist:)
 
 
 

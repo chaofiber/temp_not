@@ -63,6 +63,7 @@ classes: wide
     - Uses in research & industry
     - API redesign
   - Nodes only contact if they have compatible service settings.
+  - There is no rosmaster in ROS2, instead it uses Data Distribution System (DDS) for communication.
 
 
 

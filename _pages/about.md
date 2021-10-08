@@ -4,7 +4,6 @@ title: "Chao Ni"
 classes: wide
 ---
 
- <span style="font-family:Papyrus; font-size:1em;">
 
 I was born in Zhejiang, China and finished my high school there. I obtained my undergraduate degree in *Theoretical and Applied Mechanics* and *Economics* at Peking University. After that, I went to Switzerland and continued my studies as a master student in *Robotics, Systems and Control* at ETH Zurich.
 
@@ -28,5 +27,3 @@ In my free time, I enjoy taking pictures, cycling and traveling. I am also keen 
 - Research Intern, Machine Intelligence Group, Tsinghua University, 2019.1-2019.8, advisor: [Chongjie Zhang](http://iiis.tsinghua.edu.cn/~zhang/)
 - Visiting Student, LCSR lab, Johns Hopkins University, 2018.6-2018.9, advisor: [Gregory Chirikjian](https://me.jhu.edu/faculty/gregory-s-chirikjian/)
 
-
-</span>

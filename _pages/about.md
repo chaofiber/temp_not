@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "Chao Ni"
 classes: wide
 ---
 
@@ -11,9 +11,9 @@ I am interested in the research area bridging learning and control, and especial
 In my free time, I enjoy taking pictures, cycling and traveling. I am also keen to body building.
 
 ## Education
-- MSc in Robotics, ETH Zürich, Zürich, Switzerland, 2019 - 2021
-- BSc in Theoretical and Applied Mechanics, Peking University, Beijing, China, 2015 - 2019
-- BSc in Economics, Peking University, Beijing China, 2016 - 2019
+- *MSc* in Robotics, ETH Zürich, Zürich, Switzerland, 2019 - 2021
+- *BSc* in Theoretical and Applied Mechanics, Peking University, Beijing, China, 2015 - 2019
+- *BSc* in Economics, Peking University, Beijing China, 2016 - 2019
 
 ## Research
-- Research Intern, Visual Intelligence and Learning Group, EPFL, Lausanne, 2021.10 - , advisor: [Amir Zamir] (https://vilab.epfl.ch/zamir/) 
+- Research Intern, Visual Intelligence and Learning Group, EPFL, Lausanne, 2021.10 - , advisor: [Amir Zamir](https://vilab.epfl.ch/zamir/)

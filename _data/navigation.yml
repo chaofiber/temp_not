@@ -1,6 +1,8 @@
 main:
   - title: "Category"
     url: /categories/
-  - title: "About"
+  - title: "Research"
+    url: /research/
+  - title: "about me"
     url: /about/
 
